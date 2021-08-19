@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header"> <h1>Network</h1> </div>
+            <h1 class=intro> Your Feed</h1>
+        <div class="feed">
+        <div class="col-1">
+            <div class="profile">
+                <div class="photo">
+                    <img src="images/karma.png" alt="james doe profile picture"/>
+                </div>
+                <div class="profInfo">
+                    <h4> <a href="http://www.google.com">Add an avatar</a></h4>
+                    <h2>James Doe</h2>
+                </div>
+            </div>
+        </div>
+            <div class="col-2">
+<!-- Neil -->
+                <div class="posts">
+                    <div class="top">
+                        <h3 class="name">Neil M</h3>
+                        <div class="likes">
+                            <h5 class="counter neil">9 Like(s)</h5>
+                            <button onclick="addNeil()">Like</button>
+                        </div>
+                    </div>
+                    <div class="bot">
+                        <h4>I just set up this new discord bot, let me know what 
+                            you all think. <a href="google.com">link</a> </h4>
+                    </div>
+                </div>
+<!-- Nichole -->
+                <div class="posts">
+                    <div class="top">
+                        <h3 class="name">Nichole K</h3>
+                        <div class="likes">
+                            <h5 class="counter nichole">12 Like(s)</h5>
+                            <button onclick="addNichole()">Like</button>
+                        </div>
+                    </div>
+                    <div class="bot">
+                        <h4> Just finished my <a href="twitter.com">next comic</a>,
+                            check it out. </h4>
+                    </div>
+                </div>
+<!-- Jim -->
+                <div class="posts">
+                    <div class="top">
+                        <h3 class="name">Jim R</h3>
+                        <div class="likes">
+                            <h5 class="counter jim">9 Like(s)</h5>
+                            <button onclick="addJim()">Like</button>
+                        </div>
+                    </div>
+                    <div class="bot">
+                        <h4> I can't stop listening to the <a href="pandora.com">new album</a>.
+                            Who else is liking it?</h4>
+                        </div>
+                    </div>
+                </div>
+<!-- feed end -->
+        </div>
+<!-- container end -->
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
